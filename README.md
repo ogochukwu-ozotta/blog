@@ -23,11 +23,11 @@ With a growing focus on **MLOps**, I dive into topics at the intersection of dat
 ## About Me
 I have a PhD in Petroleum Engineering and a diverse background in Cloud Computing and Infrastructure Engineering. My professional experience spans various industries, including academia, fintech, energy, software development, and cloud infrastructure for large-scale enterprises. In my current role as a **Site Reliability Engineer**, I focus on ensuring the availability and reliability of cloud-native applications using cutting-edge DevOps tools and methodologies.
 ### Professional Journey
-- **Site Reliability Engineer** at SLB  
- Currently leading Kubernetes deployments and maintaining scalable, reliable cloud infrastructures.
-- **Senior DevOps/Cloud Engineer** at Full Stack Labs  
+- **Site Reliability Engineer**  
+ Led Kubernetes deployments and maintaining scalable, reliable cloud infrastructures.
+- **Senior DevOps/Cloud Engineer**  
  Developed microservices architecture and led cloud migrations using EKS and Istio.
-- **Infrastructure Engineer** at University of North Dakota  
+- **Infrastructure Engineer**   
  Orchestrated cloud automation with AWS and Kubernetes, streamlining real-time data streaming.
 
 ## Stay Connected
