@@ -1,13 +1,16 @@
 ---
-layout: post
-title: "Machine Learning & AI Services: Exploring Alternatives and Differences Between AWS and Azure"
+title: 'Machine Learning & AI Services: Exploring Alternatives and Differences Between AWS and Azure'
+excerpt: "A comprehensive comparison of Machine Learning and AI services between AWS and Azure."
 date: 2024-09-30
-categories: [ML, AI]
+permalink: /posts/2024/09/aws-azure-ml-ai
+image: /assets/images/ml-ai-aws-azure.png
+tags:
+  - Machine Learning 
+  - Artificial Intelligent
+  - AWS Cloud Services
+  - Azure Cloud Services
 ---
 
-
-
-# Machine Learning & AI Services: Exploring Alternatives and Differences Between AWS and Azure
 
 ## Introduction
 As cloud-based machine learning (ML) and artificial intelligence (AI) services continue to expand, Azure and AWS lead the pack with powerful, flexible tools for building intelligent applications. Whether you're a data scientist, machine learning engineer, or developer, understanding how these two giants compare is critical for selecting the right platform. 

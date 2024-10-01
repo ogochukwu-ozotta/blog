@@ -1,0 +1,586 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Machine Learning &amp; AI Services: Exploring Alternatives and Differences Between AWS and Azure - OGO OZOTTA</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="OGO OZOTTA">
+<meta property="og:title" content="Machine Learning &amp; AI Services: Exploring Alternatives and Differences Between AWS and Azure">
+
+
+  <link rel="canonical" href="http://localhost:4000/posts/2024/09/aws-azure-ml-ai">
+  <meta property="og:url" content="http://localhost:4000/posts/2024/09/aws-azure-ml-ai">
+
+
+
+  <meta property="og:description" content="A comprehensive comparison of Machine Learning and AI services between AWS and Azure.">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2024-09-30T00:00:00+00:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Ogo Ozotta",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="OGO OZOTTA Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">OGO OZOTTA</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/">Home</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">Blog Posts</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/portfolio/">Portfolio</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/profile.png" class="author__avatar" alt="Ogo Ozotta">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Ogo Ozotta</h3>
+    <p class="author__pronouns">she/her</p>
+    <p class="author__bio">DevOps | SRE | Cloud | MLOps | DataOps | Kubernetes</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Houston, Texas</li>
+      
+      
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>CloudCore Hub</li>
+      
+      
+      
+        <li><a href="mailto:ogochukwu.ozotta@gmail.com"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+        <li><a href="https://scholar.google.com/citations?hl=en&user=Z_ru7H0AAAAJ"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      
+      
+      
+      
+        <li><a href="https://orcid.org/0000-0003-2726-2142"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+      
+                              
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/ogochukwu-ozotta"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+        <li><a href="https://bsky.app/profile/bsky.app"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Machine Learning &amp; AI Services: Exploring Alternatives and Differences Between AWS and Azure">
+    <meta itemprop="description" content="A comprehensive comparison of Machine Learning and AI services between AWS and Azure.">
+    <meta itemprop="datePublished" content="September 30, 2024">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Machine Learning &amp; AI Services: Exploring Alternatives and Differences Between AWS and Azure
+</h1>
+          
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  6 minute read
+	
+</p>
+          
+        
+        
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-09-30T00:00:00+00:00">September 30, 2024</time></p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h2 id="introduction">Introduction</h2>
+<p>As cloud-based machine learning (ML) and artificial intelligence (AI) services continue to expand, Azure and AWS lead the pack with powerful, flexible tools for building intelligent applications. Whether you’re a data scientist, machine learning engineer, or developer, understanding how these two giants compare is critical for selecting the right platform.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><img src="https://ogochukwu-ozotta.github.io/blog/assets/img/aws-ml-ai.png" alt="AWS" /></th>
+      <th><img src="https://ogochukwu-ozotta.github.io/blog/assets/img/azure-ml-ai.png" alt="Azure" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Common AWS ML and AI Services</td>
+      <td>Common Azure ML and AI Services</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Here is a brief comparison of Azure and AWS Machine Learning and AI services, including alternative offerings and exclusive tools available on each platform. The services are presented side by side so you can see where each provider excels, and highlight features unique to Azure or AWS.</p>
+
+<h2 id="comparison-table-aws-vs-azure-machine-learning--ai-services">Comparison Table: AWS vs. Azure Machine Learning &amp; AI Services</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Service</strong></th>
+      <th><strong>AWS</strong></th>
+      <th><strong>Azure</strong></th>
+      <th><strong>Service Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Integrated ML Platform</td>
+      <td>Amazon SageMaker</td>
+      <td>Azure Machine Learning</td>
+      <td>End-to-end machine learning platform for building, training, and deploying models. Includes Studio, Designer, and Notebooks for a unified ML environment.</td>
+    </tr>
+    <tr>
+      <td>Automated ML (AutoML)</td>
+      <td>SageMaker Autopilot</td>
+      <td>Azure ML Automated ML</td>
+      <td>Automates model selection, feature engineering, and hyperparameter tuning for non-experts.</td>
+    </tr>
+    <tr>
+      <td>Data Labeling</td>
+      <td>SageMaker Ground Truth</td>
+      <td>No direct equivalent</td>
+      <td>Automated data labeling for creating training datasets.</td>
+    </tr>
+    <tr>
+      <td>Pre-Built AI Models</td>
+      <td>Rekognition, Polly, Textract</td>
+      <td>Azure Cognitive Services</td>
+      <td>Pre-trained models for vision, text, speech, and decision-making tasks. Azure also offers models for document intelligence and generative AI.</td>
+    </tr>
+    <tr>
+      <td>Natural Language Processing</td>
+      <td>Amazon Comprehend, Lex, Translate</td>
+      <td>Azure AI Language, LUIS, Translator</td>
+      <td>NLP services including language detection, translation, text analysis, and conversational AI for building chatbots and digital assistants.</td>
+    </tr>
+    <tr>
+      <td>Speech Services</td>
+      <td>Amazon Polly, Transcribe, Translate</td>
+      <td>Azure AI Speech</td>
+      <td>Speech-to-text, text-to-speech, and real-time speech translation. Azure also offers speaker recognition.</td>
+    </tr>
+    <tr>
+      <td>Computer Vision</td>
+      <td>Amazon Rekognition</td>
+      <td>Azure Computer Vision, Custom Vision, AI Vision</td>
+      <td>Image and video analysis with facial recognition, object detection, OCR, and semantic segmentation capabilities.</td>
+    </tr>
+    <tr>
+      <td>Document Processing</td>
+      <td>Amazon Textract</td>
+      <td>Azure AI Document Intelligence</td>
+      <td>Extracts text, tables, and key-value pairs from documents. Azure offers prebuilt and custom models for various document types.</td>
+    </tr>
+    <tr>
+      <td>Recommendation Systems</td>
+      <td>Amazon Personalize</td>
+      <td>Azure Personalizer</td>
+      <td>AI-based recommendation services for personalized content and product suggestions. Azure uses reinforcement learning for real-time personalization.</td>
+    </tr>
+    <tr>
+      <td>Search</td>
+      <td>Amazon Kendra</td>
+      <td>Azure Cognitive Search</td>
+      <td>AI-powered search services with NLP support for enterprise search. Azure Search includes AI enrichment and integration with other Azure AI capabilities.</td>
+    </tr>
+    <tr>
+      <td>Bot Development</td>
+      <td>Amazon Lex</td>
+      <td>Azure Bot Service</td>
+      <td>Tools for building, deploying, and managing chatbots. Azure Bot Service integrates with other Azure AI services like LUIS for enhanced conversational AI.</td>
+    </tr>
+    <tr>
+      <td>Edge AI and ML</td>
+      <td>AWS Panorama, IoT Greengrass</td>
+      <td>Azure IoT Edge, Azure Percept</td>
+      <td>AI capabilities at the edge for real-time inference. Azure integrates seamlessly with Azure AI Vision for advanced analytics at the edge.</td>
+    </tr>
+    <tr>
+      <td>Quantum Machine Learning</td>
+      <td>Amazon Braket</td>
+      <td>Azure Quantum</td>
+      <td>Quantum computing platforms with integrations for machine learning experiments.</td>
+    </tr>
+    <tr>
+      <td>Generative AI Services</td>
+      <td>AWS Bedrock, Amazon Q for Developer</td>
+      <td>Azure OpenAI Service</td>
+      <td>Services providing generative AI and language models. Azure integrates GPT models for advanced NLP and generative tasks.</td>
+    </tr>
+    <tr>
+      <td>AI Development Environment</td>
+      <td>AWS Playground</td>
+      <td>Azure AI Studio</td>
+      <td>Interactive environments for experimenting with different AI and ML services, managing projects, and deploying AI solutions.</td>
+    </tr>
+    <tr>
+      <td>Responsible AI</td>
+      <td>No direct equivalent</td>
+      <td>Responsible AI Services</td>
+      <td>Azure offers tools and frameworks to ensure fairness, transparency, and accountability in AI solutions, focusing on ethical AI development.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="exclusive-services-aws">Exclusive Services: AWS</h2>
+<ol>
+  <li><strong>SageMaker Ground Truth</strong>: Automated data labeling.</li>
+  <li><strong>Fraud Detector</strong>: AI-powered fraud detection service.</li>
+  <li><strong>Amazon CodeGuru</strong>: AI-driven code reviews and performance improvement.</li>
+  <li><strong>AWS Panorama</strong>: Real-time computer vision at the edge.</li>
+  <li><strong>AWS HealthLake</strong>: AI-powered, HIPAA-compliant healthcare data lake.</li>
+  <li><strong>AWS Trainium</strong>: Custom-built ML training chip for deep learning workloads.</li>
+  <li><strong>AWS Bedrock</strong>: Managed generative AI for building language and image-based applications.</li>
+  <li><strong>Amazon Q for Developer &amp; Business</strong>: AI toolkit for building applications and providing AI-powered business insights.</li>
+</ol>
+
+<h2 id="exclusive-services-azure">Exclusive Services: Azure</h2>
+<ol>
+  <li><strong>Azure Personalizer</strong>: Reinforcement learning-based real-time personalization.</li>
+  <li><strong>Azure Arc-enabled ML</strong>: Extends Azure ML capabilities to hybrid and multi-cloud environments.</li>
+  <li><strong>Speaker Recognition</strong>: Identifies and verifies speakers in audio data.</li>
+  <li><strong>Azure AI Document Intelligence</strong>: Advanced document processing with prebuilt and custom models for invoices, health records, etc.</li>
+  <li><strong>Azure AI Studio</strong>: Unified development environment for managing AI projects, integrating various Azure AI services, and creating generative AI solutions.</li>
+  <li><strong>Responsible AI Services</strong>: Built-in tools to ensure responsible and ethical AI development, focusing on fairness, privacy, and transparency.</li>
+  <li><strong>Azure AI Knowledge Mining</strong>: Extracts information from unstructured data, creating searchable knowledge stores.</li>
+  <li><strong>Azure OpenAI Service</strong>: Access to OpenAI’s cutting-edge models for text and image generation.</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Azure and AWS both offer a robust suite of machine learning and AI services, with overlapping features and distinct advantages. <strong>Azure’s</strong> strength lies in its <strong>integration with enterprise services</strong>, a focus on <strong>responsible AI</strong>, and advanced tools like <strong>Azure AI Document Intelligence</strong> and <strong>Knowledge Mining</strong>. <strong>AWS</strong>, on the other hand, excels with specialized offerings like <strong>Fraud Detector</strong>, <strong>CodeGuru</strong>, and <strong>Bedrock</strong> for generative AI.</p>
+
+<p>Choosing between Azure and AWS ultimately depends on your needs. If your focus is on <strong>hybrid cloud capabilities</strong>, <strong>responsible AI</strong>, and <strong>seamless integration</strong> with other Microsoft services, Azure is an excellent choice. If you need <strong>niche AI tools</strong>, <strong>edge computing</strong>, or <strong>advanced generative AI capabilities</strong>, AWS may be better suited.</p>
+
+<p>Whichever platform you choose, both Azure and AWS provide the flexibility and power needed to innovate with machine learning and AI, supporting businesses and developers in building intelligent, efficient, and impactful applications.</p>
+
+<h2 id="learn-more">Learn More</h2>
+<p>For more information on AWS Machine Learning and AI Services, visit the <a href="https://docs.aws.amazon.com/machine-learning/">AWS Documentation on Machine Learning</a>. You can also explore learning resources on AWS Skill Builder for the <a href="https://aws.amazon.com/certification/certified-ai-practitioner/?gclid=Cj0KCQjwmOm3BhC8ARIsAOSbapVW7tJJX7QuxsS0lhSUnlC6i918DOCR8dk40LAEJnYDdMk5xFUG9ycaAnu9EALw_wcB&amp;trk=76a09922-9ba6-48ef-8745-876a0e43d2d2&amp;sc_channel=ps&amp;ef_id=Cj0KCQjwmOm3BhC8ARIsAOSbapVW7tJJX7QuxsS0lhSUnlC6i918DOCR8dk40LAEJnYDdMk5xFUG9ycaAnu9EALw_wcB:G:s&amp;s_kwcid=AL!4422!3!709243719044!e!!g!!aws%20artificial%20intelligence%20training!21582272861!166844408780&amp;gbraid=0AAAAADjHtp_m-HVeJhdh57pGV7eZ270WJ">AWS Certified AI Practitioner</a>.</p>
+
+<p>For Azure, you can find more information on <a href="https://azure.microsoft.com/en-us/products/ai-services">Azure AI Services</a> and explore learning resources for <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?ns-enrollment-type=Collection&amp;ns-enrollment-id=w31fowm0dn4mz&amp;practice-assessment-type=certification">Azure AI Fundamentals</a>.</p>
+
+<h2 id="disclaimer">Disclaimer</h2>
+<p>The information provided in this post is based on publicly available information as of [October 2024]. The features, capabilities, and offerings of AWS and Azure machine learning and AI services may change over time. This post is intended for informational purposes only, and readers are encouraged to verify the information directly from official AWS and Azure documentation before making any decisions. The views expressed here are my own and do not represent any company or organization.</p>
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#artificial-intelligent" class="page__taxonomy-item" rel="tag">Artificial Intelligent</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#aws-cloud-services" class="page__taxonomy-item" rel="tag">AWS Cloud Services</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#azure-cloud-services" class="page__taxonomy-item" rel="tag">Azure Cloud Services</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#machine-learning" class="page__taxonomy-item" rel="tag">Machine Learning</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/posts/2024/09/aws-azure-ml-ai" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/2024/09/aws-azure-ml-ai" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/posts/2024/09/aws-azure-ml-ai" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="http://github.com/ogochukwu-ozotta"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">
+  &copy; 2024 Ogo Ozotta, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  Site last updated 2024-10-01
+</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
