@@ -1,4 +1,10 @@
 title: Ogochukwu Ozotta
 logo: /assets/img/smile.jpg
+
+description: >- 
+  A blog about DevOps, Machine Learning, MLOPs, AI, DataOps, and cloud technologies.
+baseurl: "/blog/" # the subpath of your site, e.g., "/blog"
+url: "https://ogochukwu-ozotta.github.io"
+
 markdown: kramdown
 theme: jekyll-theme-minimal
