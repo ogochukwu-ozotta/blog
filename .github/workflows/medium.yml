@@ -1,0 +1,32 @@
+name: Publish to Medium
+
+on:
+  workflow_dispatch:
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - "_posts/**"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Publish article to Medium
+        run: |
+          POST_DATA=$(jq -n \
+            --arg title "Machine Learning & AI Services: Exploring Alternatives and Differences Between AWS and Azure" \
+            --arg content "$(cat ./_posts/2024-09-30-Machine-Learning-AI-Services.md)" \
+            --arg contentFormat "markdown" \
+            --arg tags '["machine-learning", "aws", "azure", "cloud", "ai"]' \
+            --arg publishStatus "public" \
+            '{title: $title, contentFormat: $contentFormat, content: $content, tags: $tags, publishStatus: $publishStatus}')
+          
+          curl -X POST https://api.medium.com/v1/users/me/posts \
+          -H "Authorization: Bearer ${{ secrets.MEDIUM_API_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d "$POST_DATA"

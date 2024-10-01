@@ -1,0 +1,26 @@
+name: Publish to Dev.to
+
+on:
+  workflow_dispatch:
+      
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - "_posts/**" # Trigger the workflow when there's a change in the "_posts" directory
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Publish article to Dev.to
+        uses: shihanng/devto-act@v0.0.6
+        with:
+            auto_prefix: "yes"
+            markdown_files: "./_posts/2024-09-30-Machine-Learning-AI-Services.md"
+        env:
+            DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
