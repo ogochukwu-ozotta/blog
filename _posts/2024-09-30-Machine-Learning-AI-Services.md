@@ -12,7 +12,7 @@ categories: [ML, AI]
 ## Introduction
 As cloud-based machine learning (ML) and artificial intelligence (AI) services continue to expand, Azure and AWS lead the pack with powerful, flexible tools for building intelligent applications. Whether you're a data scientist, machine learning engineer, or developer, understanding how these two giants compare is critical for selecting the right platform. 
 
-| ![AWS](ogochukwu-ozotta.github.io/blog/assets/img/aws-ml-ai.png) | ![Azure](ogochukwu-ozotta.github.io/blog/assets/img/azure-ml-ai.png) |
+| ![AWS](https://ogochukwu-ozotta.github.io/blog/assets/img/aws-ml-ai.png) | ![Azure](https://ogochukwu-ozotta.github.io/blog/assets/img/azure-ml-ai.png) |
 |------------------------|------------------------|
 | Common AWS ML and AI Services   | Common Azure ML and AI Services    |
 
