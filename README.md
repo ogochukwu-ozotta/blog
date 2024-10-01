@@ -6,6 +6,9 @@ Hello and welcome to my blog! My name is Ogochukwu Ozotta, and I am a DevOps/Sit
 - **Data Science & MLOps:** Exploring data engineering pipelines, cloud-based AI solutions, and the convergence of DevOps and DataOps.
 - **Site Reliability Engineering (SRE):** Insights on system reliability, cloud-native applications, and real-world experiences managing scalable infrastructure.
 
+## Blog Post
+- [Machine Learning & AI Services: Exploring Alternatives and Differences Between AWS and Azure](_posts/2024-09-30-Machine-Learning-AI-Services.md)
+
 
 ## Blog Highlights
 ### DevOps, Cloud, and Automation
