@@ -1,11 +1,10 @@
 ---
+layout: post
 title: "Machine Learning & AI Services: Exploring Alternatives and Differences Between AWS and Azure"
-published: true
-tags: ["machine-learning", "aws", "azure", "cloud", "ai"]
-series: "Cloud AI Comparison Series"
-canonical_url: "https://example.com/original-url" # Optional if cross-posting
-cover_image: "/assets/img/aws-ml-ai.png" # Optional, cover image for the blog
+date: 2024-09-30
+categories: [ML, AI]
 ---
+
 
 
 # Machine Learning & AI Services: Exploring Alternatives and Differences Between AWS and Azure

@@ -1,5 +1,4 @@
 title: Ogochukwu Ozotta
 logo: /assets/img/smile.jpg
-#description: text below the image 
-show_downloads: true
+markdown: kramdown
 theme: jekyll-theme-minimal
