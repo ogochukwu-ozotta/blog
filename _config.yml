@@ -12,8 +12,9 @@ title                    : "OGO OZOTTA"
 title_separator          : "-"
 name                     : &name "Ogo Ozotta"
 description              : &description "personal description"
-url                      : https://ogochukwu-ozotta.github.io/blog # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://cloudcorehub.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
+base_path                : ""
 repository               : "ogochukwu-ozotta.github.io/blog"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -23,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Ogo Ozotta"
-  pronouns         : "she/her"  
+  pronouns         : "She/Her"  
   bio              : "DevOps | SRE | Cloud | MLOps | DataOps | Kubernetes"
   location         : "Houston, Texas"
   employer         : "CloudCore Hub"
