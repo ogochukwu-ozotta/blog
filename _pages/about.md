@@ -10,7 +10,7 @@ redirect_from:
 Hello and welcome! I'm Ogochukwu Ozotta, a Data Engineer passionate about Cloud Computing, DevOps, Data Science, and Machine Learning. This blog is where I share insights, tutorials, and discussions on these topics, combining practical knowledge with real-world experiences.
 
 ## Topics I Cover
-- **Data Engineering | Science & MLOps**: Cloud-based AI solutions, automated data workflows, and scaling machine learning models with MLOps.
+- **Data Engineering, Data Science & MLOps**: Cloud-based AI solutions, automated data workflows, and scaling machine learning models with MLOps.
 - **Cloud Infrastructure**: Strategies and best practices for AWS, Azure, and GCP.
 - **DevOps Automation**: Building efficient CI/CD pipelines, infrastructure as code (using tools like Terraform and Ansible), and container orchestration with Kubernetes.
 - **Site Reliability Engineering (SRE)**: Ensuring reliability, scalability, and high availability in cloud-native environments.
