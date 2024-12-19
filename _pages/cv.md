@@ -29,11 +29,11 @@ redirect_from:
 - **Microsoft Certified: Azure AI Fundamentals (AI-900)**
 - **AWS Certified AI Practitioner Early Adopter (AIF-C01)**
 
-## Professional Experience
+## Past and Present Professional Experience
 
-### Consulting DevOps | SRE  
+### Data | Cloud | DevOps | SRE  
 **Cloudcore Hub**  
-*December 2023 – Present*
+*February 2013 – Present*
 
 - Ensure reliability and uptime of cloud services to meet user needs.
 - Conduct system design consulting, develop software platforms, perform capacity planning, and conduct launch reviews for new services.
@@ -41,28 +41,16 @@ redirect_from:
 - Deploy and manage Kubernetes clusters, ensuring reliability, scalability, and efficient cloud migrations.
 - Utilize Python for cloud-based applications, improving system integration and deployment processes.
 
-### Senior DevOps/Cloud Engineer  
-**Full Stack Labs (ATPCO and Macquarie)**  
-*January 2023 – November 2023*
-
 - Drove cloud migration projects using Kubernetes and EKS, ensuring high availability and disaster recovery.
 - Engaged in full stack development with Python and JavaScript, enhancing system functionality and user engagement.
 - Managed container orchestration using Docker, Kubernetes, EKS, and AKS to ensure deployment efficiency.
 - Integrated Istio service mesh to enhance communication, security, and scalability of microservices.
 - Automated infrastructure provisioning with Terraform and Ansible, reducing manual errors and deployment times.
 
-### Infrastructure Engineer  
-**University of North Dakota, Grand Forks, ND**  
-*September 2016 – January 2023*
-
 - Pioneered ETL lifecycle using AWS Glue and EMR, improving data processing and security.
 - Architected real-time data streaming using Apache Kafka and AWS Kinesis, ensuring accuracy in data flow.
 - Automated infrastructure provisioning using reusable Terraform IaC modules.
 - Established monitoring mechanisms with NewRelic, Splunk, Prometheus, and Grafana, ensuring rapid response to performance issues.
-
-### Multi-Platform Engineer  
-**Intertek – Swede Control**  
-*February 2013 – August 2016*
 
 - Developed comprehensive backup and recovery strategies, achieving a 100% recovery rate during failures.
 - Optimized databases for MySQL, PostgreSQL, Oracle, and SQL Server, enhancing retrieval times.
