@@ -1,4 +1,35 @@
 
+## Updating the GitHub Pages Custom Domain (DNS)
+
+The site is deployed to `blog.cloudcorehub.com` via GitHub Pages with AWS Route 53 managing DNS. To change the custom domain, update all three of the following:
+
+### 1. AWS Route 53
+
+1. Go to **Route 53 → Hosted zones → `cloudcorehub.com`**
+2. Delete or update the existing subdomain CNAME record
+3. Create a new record:
+   - **Name**: `blog` (or whatever subdomain you want)
+   - **Type**: `CNAME`
+   - **Value**: `ogochukwu-ozotta.github.io`
+   - **TTL**: `300`
+
+### 2. GitHub Pages Settings
+
+1. Go to the repo on GitHub → **Settings → Pages**
+2. Under **Custom domain**, enter the new subdomain (e.g. `blog.cloudcorehub.com`)
+3. Click **Save** — GitHub will verify DNS and provision a TLS certificate automatically
+
+### 3. Repo files
+
+Update the domain in two files:
+
+- **`CNAME`** (repo root): set the file contents to the new domain, e.g. `blog.cloudcorehub.com`
+- **`_config.yml`** line 15: update `url` to `https://blog.cloudcorehub.com`
+
+Commit and push both changes to `main` to complete the update.
+
+---
+
 ## Running locally
 
 When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
